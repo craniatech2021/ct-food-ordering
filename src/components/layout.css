@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap%27");
+
+:root {
+  --mainRed: #45230f;
+  --mainYellow: #955f31;
+  --mainBrown: #6f4e37;
+  --mainBlue: #3b555d;
+  --mainGray: #233237;
+  --mainWhite: #fff;
+  --mainDark: #000;
+  --mainCream: #ede0c9;
+  --mainFont: #696969;
+}
+
+body {
+  background-color: var(--mainWhite);
+  color: var(--mainDark);
+  font-family: "Bebas Neue", cursive;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 8rem;
+}
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.2rem !important;
+  font-weight: 300;
+}
+h4 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.2rem !important;
+  font-weight: lighter;
+  color: var(--mainFont);
+}
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3rem !important;
+}
+
+.text-dark {
+  color: var(--mainDark) !important;
+}
+
+.text-gray {
+  color: var(--mainGray);
+}
+
+.text-white {
+  color: #ffff;
+}
+
+.title {
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 8rem;
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: var(--mainYellow);
+  font-size: 2rem;
+}
+
+.btn-yellow {
+  color: var(--mainGray) !important;
+  border-color: var(--mainGray) !important;
+}
+
+.btn-yellow:hover {
+  background: var(--mainGray) !important;
+  color: var(--mainWhite) !important;
+}
+
+.btn-white {
+  color: var(--mainWhite) !important;
+  border-color: var(--mainWhite) !important;
+}
+
+.btn-white:hover {
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.default-background {
+  min-height: 90.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu {
+  background: var(--mainYellow);
+}
+
+.contact {
+  background: var(--mainBrown);
+}
+
+.about {
+  background: var(--mainCream);
+}
+
+.product {
+  background: var(--mainGray);
+}
+
+.coffee-bag > img {
+  height: 60px;
+  width: 60px;
+}
+
+.coffee-cup > img {
+  height: 60px;
+  width: 60px;
+}
+
+.beverage {
+  background: var(--mainRed);
+}
+
+.card {
+  border: none;
+}
+
+.community {
+  background: var(--mainRed);
+}
